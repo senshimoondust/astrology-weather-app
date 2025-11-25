@@ -81,6 +81,19 @@ strong {
   background-color: #b0c4de;
 }
 
+.temperature {
+  color: #0962ea;
+  font-size: 32px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.temp-unit {
+  color: #0962ea;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 footer {
   background-color: #f9ecec;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

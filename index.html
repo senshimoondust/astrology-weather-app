@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Astrology Weather App</title>
   </head>
   <body>
@@ -64,8 +65,8 @@
           </div>
           <div class="current-temp">
             <div class="weather-icon">🌤️</div>
-            <div class="temperature">68</div>
-            <div class="temp-unit">°F</div>
+            <div class="temperature" id="temperature"><strong>68</strong></div>
+            <div class="temp-unit"><strong>°F</strong></div>
           </div>
         </section>
         <div class="forecast-container"></div>
