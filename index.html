@@ -43,13 +43,18 @@
           </div>
         </section>
         <section>
-          <form>
-            <input type="search" / placeholder="Enter a city..."
-            class="search-form" required>
+          <form class="search-weather-form" id="search-weather-form">
+            <input
+              type="search"
+              placeholder="Enter a city..."
+              class="search-form"
+              id="search-form"
+              required
+            />
             <input type="submit" value="Search" class="search-button" />
           </form>
           <div class="weather-data">
-            <h2 class="weather-city">Seattle</h2>
+            <h2 class="weather-city" id="weather-city">Seattle</h2>
             <p class="weather-details">
               Tuesday: Sunny, High: <strong>75°F</strong>, Low:
               <strong>55°F</strong>
