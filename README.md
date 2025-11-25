@@ -1,2 +1,3 @@
 # astrology-weather-app
-A wether application
+
+A weather application using HTML, CSS and JavaScript
