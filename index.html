@@ -7,9 +7,81 @@
     <title>Astrology Weather App</title>
   </head>
   <body>
-    <header>
-      <h1>Astrology Weather App</h1>
-    </header>
+    <div class="main-content">
+      <header>
+        <h1>Astrology Weather App</h1>
+        <img
+          src="src/images/horoscope.png"
+          alt="moon icon"
+          class="main-image"
+        />
+      </header>
+      <main>
+        <section>
+          <h2>Weather Forecast</h2>
+          <div class="element-icons">
+            <img
+              src="src/images/water.png"
+              alt="water icon"
+              class="section-image"
+            />
+            <img
+              src="src/images/fire.png"
+              alt="fire icon"
+              class="section-image"
+            />
+            <img
+              src="src/images/earth.png"
+              alt="earth icon"
+              class="section-image"
+            />
+            <img
+              src="src/images/air.png"
+              alt="air icon"
+              class="section-image"
+            />
+          </div>
+        </section>
+        <section>
+          <form>
+            <input type="search" / placeholder="Enter a city..."
+            class="search-form" required>
+            <input type="submit" value="Search" class="search-button" />
+          </form>
+          <div class="weather-data">
+            <h2 class="weather-city">Seattle</h2>
+            <p class="weather-details">
+              Tuesday: Sunny, High: <strong>75°F</strong>, Low:
+              <strong>55°F</strong>
+              <br />
+              Humidity: <strong>60%</strong>, Wind: <strong>10 mph</strong>
+            </p>
+          </div>
+          <div class="current-temp">
+            <div class="weather-icon">🌤️</div>
+            <div class="temperature">68</div>
+            <div class="temp-unit">°F</div>
+          </div>
+        </section>
+        <div class="forecast-container"></div>
+      </main>
+    </div>
+    <footer>
+      Coded by
+      <a href="https://github.com/senshimoondust" target="_blank"
+        >J.C Myrie✨</a
+      >
+      open-sourced on
+      <a
+        href="https://github.com/senshimoondust/astrology-weather-app"
+        target="_blank"
+        >GitHub</a
+      >
+      and hosted with
+      <a href="https://astrologyweatherapp.netlify.app" target="_blank"
+        >Netlify.</a
+      >
+    </footer>
     <script src="src/app.js"></script>
   </body>
 </html>
