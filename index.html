@@ -17,6 +17,7 @@
           class="main-image"
         />
       </header>
+      <hr />
       <main>
         <section>
           <h2>Weather Forecast</h2>
@@ -55,39 +56,72 @@
             <input type="submit" value="Search" class="search-button" />
           </form>
           <div class="weather-data">
-            <h2 class="weather-city" id="weather-city">Seattle</h2>
+            <h2 class="weather-city" id="weather-city"></h2>
             <p class="weather-details">
               Tuesday: Sunny, High: <strong>75°F</strong>, Low:
               <strong>55°F</strong>
               <br />
               Humidity: <strong>60%</strong>, Wind: <strong>10 mph</strong>
             </p>
+            <hr />
           </div>
           <div class="current-temp">
-            <div class="weather-icon">🌤️</div>
-            <div class="temperature" id="temperature"><strong>68</strong></div>
-            <div class="temp-unit"><strong>°F</strong></div>
+            <div class="weather-icon"></div>
+            <div class="temperature" id="temperature"><strong></strong></div>
+            <div class="temp-unit">°F<strong></strong></div>
           </div>
         </section>
-        <div class="forecast-container"></div>
+        <hr />
+        <div class="forecast-container">
+          <div class="forecast-day">
+            <div class="forecast-date">Wed</div>
+            <div class="forecast-icon">🌦️</div>
+            <div class="forecast-temp">
+              <strong>70°F</strong> / <strong>50°F</strong>
+            </div>
+          </div>
+          <div class="forecast-day">
+            <div class="forecast-date">Thu</div>
+            <div class="forecast-icon">☁️</div>
+            <div class="forecast-temp">
+              <strong>65°F</strong> / <strong>48°F</strong>
+            </div>
+          </div>
+          <div class="forecast-day">
+            <div class="forecast-date">Fri</div>
+            <div class="forecast-icon">🌞</div>
+            <div class="forecast-temp">
+              <strong>75°F</strong> / <strong>55°F</strong>
+            </div>
+          </div>
+          <div class="forecast-day">
+            <div class="forecast-date">Sat</div>
+            <div class="forecast-icon">🌧️</div>
+            <div class="forecast-temp">
+              <strong>60°F</strong> / <strong>45°F</strong>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
-    <footer>
-      Coded by
-      <a href="https://github.com/senshimoondust" target="_blank"
-        >J.C Myrie✨</a
-      >
-      open-sourced on
-      <a
-        href="https://github.com/senshimoondust/astrology-weather-app"
-        target="_blank"
-        >GitHub</a
-      >
-      and hosted with
-      <a href="https://astrologyweatherapp.netlify.app" target="_blank"
-        >Netlify.</a
-      >
-    </footer>
+    <div class="footer-container">
+      <footer>
+        Coded by
+        <a href="https://github.com/senshimoondust" target="_blank"
+          >J.C Myrie✨</a
+        >
+        open-sourced on
+        <a
+          href="https://github.com/senshimoondust/astrology-weather-app"
+          target="_blank"
+          >GitHub</a
+        >
+        and hosted with
+        <a href="https://astrologyweatherapp.netlify.app" target="_blank"
+          >Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/app.js"></script>
   </body>
 </html>
